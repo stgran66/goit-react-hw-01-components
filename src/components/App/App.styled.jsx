@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 1200px;
-  height: 95vh;
-  background-color: white;
+
+  background-color: #dfe3ee;
   padding-top: 20px;
   margin-right: auto;
   margin-left: auto;
@@ -12,8 +12,13 @@ export const Container = styled.div`
   display: flex;
   align-content: flex-end;
   align-items: stretch;
-  justify-content: flex-start;
-  flex-direction: column;
+  justify-content: space-evenly;
+
   flex-wrap: wrap;
   position: relative;
+`;
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
 `;

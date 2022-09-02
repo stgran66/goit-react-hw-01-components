@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 
 export const TransactionTable = styled.table`
-  position: absolute;
-  top: 10px;
-  left: 10px;
-
   tr {
     background-color: #8b9dc3;
   }
